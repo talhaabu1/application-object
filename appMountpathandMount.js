@@ -7,10 +7,10 @@ const admin = express();
 // _______E___________N____________D________
 
 // On MOunt event traggered
-admin.on("mount", function (parent) {
-  console.log("Admin Mounted");
-  console.log(parent); // refers to the parent app
-});
+// admin.on("mount", function (parent) {
+//   console.log("Admin Mounted");
+//   console.log(parent); // refers to the parent app
+// });
 // _______E___________N____________D________
 
 // admin child routes
